@@ -1,0 +1,58 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+} */
+
+
+.title{
+  line-height: 2.2rem;
+  font-size: 2rem;
+  width: fit-content;
+  border-top: 1px solid ;
+  border-bottom: 1px solid;
+  font-weight: 500;
+}
+
+
+.header{
+  min-height: 150px;
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+  margin: 0 4rem 1rem 2rem;
+}
+
+.h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    padding-top: 1.2rem;
+    margin: 0px;
+  }
+
+  .post{
+    font-size: 1.6rem;
+    color: grey;
+    margin: 0;
+  }
+
+  .mainHeader{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mainHeader button{
+    color: white;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 0.7rem 3rem;
+    background-color: rgb(92, 194, 234);
+  }
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+}
