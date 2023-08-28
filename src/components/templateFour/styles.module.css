@@ -1,0 +1,102 @@
+.app {
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+.conatiner {
+  padding: 0;
+  display: flex;
+  gap: 5px;
+  line-height: 1.5;
+}
+
+.header {
+  text-align: center;
+  color: #0d2b4c;
+  margin: 2.2rem auto;
+  text-transform: capitalize;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.header p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.left {
+  flex: 0 1 30%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+.right {
+  flex: 0 1 70%;
+  box-sizing: border-box;
+}
+
+.title {
+    box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-bottom: 2px solid;
+  display: inline-block;
+  background-color:white;
+  color: #0d2b4c;
+  margin: 0.7rem 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(11, 10, 10);
+}
+
+.edu {
+  line-height: 1.4rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(11, 10, 10);
+}
+
+p {
+  margin: 0;
+}
+
+.project {
+  margin: 1.6rem 0;
+}
+
+.project h3 strong {
+  display: inline-block;
+}
+
+.project strong {
+  display: inline-block;
+}
+
+.project li {
+  line-height: 1.5;
+  margin: 1.4rem 0;
+  font-size: 1rem;
+}
+
+.projectSec :first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0d2b4c;
+}
+
+.projectSec strong{
+    display: block;
+    font-size: 1.1rem;
+    color: #0d2b4c;
+}

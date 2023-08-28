@@ -1,0 +1,394 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* .container {
+  max-width: 1000px;
+  margin:  0 auto;
+  padding: 1.5rem;
+} */
+
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+/* a:hover {
+  color: #535bf2;
+} */
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 320px;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 1.5rem 0;
+}
+
+strong,
+li {
+  text-transform: capitalize;
+}
+
+.language-list {
+  margin: 1rem;
+}
+
+.app {
+  border: 1px solid lightgray;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
+
+.contact-sec p {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 13px;
+  color: #3a3939;
+  font-weight: 600;
+  margin: 0rem;
+}
+
+.contact-sec p strong {
+  font-size: 1.1rem;
+}
+
+.project-Section p strong {
+  display: block;
+  color: black;
+}
+
+.education-Section {
+  margin: 0.6rem;
+}
+
+.education-Section p {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 0.9rem;
+}
+
+.project-Section{
+  margin: 1rem 0;
+}
+
+.project-Section .projectTitle {
+  font-size: 1.25rem;
+  gap: 0.5rem;
+  color: rgb(27, 23, 23);
+  font-weight: 600;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.project-Section .projectTitle span {
+color:black;
+}
+
+.project-Section p {
+  margin:  0.4rem;
+  line-height: 1.25;
+}
+
+.language {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: rgb(81, 78, 78);
+  padding: 0.2rem 0;
+  font-weight: 500;
+}
+
+.textDark {
+  margin: 0.45rem;
+  line-height: 1.3;
+  font-size: 1rem;
+  color: #656363;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3080c2;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.left-part {
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+
+.right-part {
+  margin-top: 1px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  padding: 2rem 1rem;
+}
+
+.logo-img {
+  padding: 1.2rem;
+  text-align: center;
+  box-sizing: border-box;
+  height: 150px;
+  padding-top: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-65 {
+  flex: 0 1 75%;
+}
+
+.flex-35 {
+  flex: 0 1 30%;
+}
+
+.sideborder {
+  border: 1px solid gray;
+  margin: 10px 16px;
+}
+
+.details-sec {
+  position: relative;
+}
+
+.details-sec p {
+  word-break: break-word;
+}
+
+.circle {
+  position: absolute;
+  display: inline;
+  left: -33px;
+  top: 0px;
+  box-sizing: border-box;
+}
+
+.contact-details {
+  padding: 1.5rem 0;
+}
+
+.G-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+ul {
+  padding: 0 1.4rem;
+}
+
+.cvDownload {
+  margin: 1rem 2rem;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table, td, tr,th{
+  border: 1px solid lightgray;
+}
+
+th{
+  font-size: 1.4rem;
+  color: #3a3939;
+}
+
+td{
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+}
+
+td svg{
+  font-size: 1.25rem;
+  color: #453f3f;
+}
+
+.viewCv{
+  cursor: zoom-out;
+}
+
+.deleteCv{
+  cursor: pointer;
+}
+
+/* Loader  */
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translate3d(0, -16px, 0);
+  }
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.bouncing-loader > div {
+  width: 16px;
+  height: 16px;
+  margin: 3rem 0.2rem;
+  background: #8385aa;
+  border-radius: 50%;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  background-color: white;
+  width: 100px;
+  box-shadow: 2px 0px 6px gray;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 30px;
+  position: absolute;
+  z-index: 1;
+  top: 3rem;
+  right: 0;
+}
+
+.tooltiptext h2 {
+  font-size: 1rem;
+}
+
+.tooltiptext button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px !important;
+  }
+
+  .right-part {
+    padding: 1rem 0.5rem;
+    max-width: 35%;
+  }
+
+  .left-part {
+    padding: 1rem 0.5rem;
+  }
+
+  .textDark {
+    font-size: 12px;
+  }
+
+  .logo-img {
+    padding: 0.4rem;
+    height: 90px;
+    padding-top: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-Section p .projectTitle {
+    font-size: 0.9rem;
+  }
+
+  .contact-sec p {
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    word-break: break-word;
+  }
+
+  .contact-sec p strong {
+    font-size: 1rem;
+  }
+
+  .language {
+    font-size: 0.9rem;
+    padding: 0.2rem;
+  }
+
+  .app {
+    padding-left: 5px;
+  }
+
+  ul {
+    padding: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px !important;
+  }
+
+  .logo-img img {
+    width: 100%;
+    height: auto;
+  }
+}

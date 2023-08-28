@@ -1,0 +1,66 @@
+.container{
+  padding: 1rem;
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.header h2{
+  margin-left: 1rem;
+}
+
+.card {
+  border: 1px dotted rgb(166, 163, 163);
+  padding:  1.6rem;
+  border-radius: 0.3rem;
+  width: 320px;
+  line-height: 1.2;
+  background-color: rgb(248, 253, 254);
+}
+
+.card strong {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(32, 27, 27);
+  margin-bottom: 1rem;
+  width: max-content;
+  padding: 0 0.7rem;
+  border-radius: 6px;
+  border-bottom: 2px solid #2A7985;
+}
+
+.card1 h2,
+.card1 h3 {
+  color: rgb(27, 98, 153);
+}
+
+.card2 h2,
+.card2 h3 {
+  color: #2A7985;
+}
+
+
+@media screen and (max-width: 768px) {
+  .cardSection{
+    justify-content: center;
+  }
+}
